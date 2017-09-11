@@ -27,6 +27,6 @@ git remote                        查看远程库信息
 git remote -v                     查看远程库详细信息
 git tag <name>                    打开一个新标签
 git tag                           查看所有标签
-git tag <tagname>  版本号              指定版本加标签
+git tag <tagname>  版本号         指定版本加标签
 git show <tagname>                查看标签信息
 git tag -a <tagname> -m "提示信息" 版本号  创建带有说明的标签 -a指定标签名  -m指定说明文字
