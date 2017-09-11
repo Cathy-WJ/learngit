@@ -1,0 +1,27 @@
+git add                           将文件添加到库
+git commit -m "提示内容"          文件提交到库
+git status                        查看库的当前状态，是否存在修改
+git diff <file>                   查看具体修改的内容
+git log                           查看提交的历史版本记录
+git log -- pretty=oneline         查看历史纪录中的具体到版本ID的内容
+git reset -- hard HEAD            回到某一个版本（HAED表示当前版本  HEAD^表示上一个 HEAD^^上两个 HEAD~100 前100个）
+git relog                         历史中的每一条记录（命令历史）
+git checkout -- file              将文件在工作区的修改全部撤销
+git reset HEAD file               将暂存区的修改撤销
+rm file                           删除工作区中的文件
+git rm file                       删除版本库中的文件
+git push origin master            本地提交后 将master推送到GitHub
+git clone git@github.com:address/file.git   克隆到github
+git branch                        查看分支  
+git branch <name>                 创建分支
+git checkout <name>               切换分支
+git checkout -b branch-name       创建+切换分支
+git merge                         合并分支
+git branch -d branch-name         删除分支
+git merge --no-ff                 合并分支（表示禁用fast forward）
+git stash                         储藏当前工作
+git stash list                    查看储藏的工作  
+git stash apply                   恢复储藏的工作后，stash的内容并没有删除，需要用git stash drop删除
+git stash pop                     恢复储藏的工作同时删除stash内容
+git remote                        查看远程库信息
+git remote -v                     查看远程库详细信息
